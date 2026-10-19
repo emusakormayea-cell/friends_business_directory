@@ -125,3 +125,12 @@ h3 {
   background: #1d5bbf;
 }
 
+.business-img {
+  width: 100%;          /* fills the card width */
+  height: 150px;        /* fixed height for consistency */
+  object-fit: cover;    /* crops image nicely without distortion */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
